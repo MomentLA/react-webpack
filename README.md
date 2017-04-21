@@ -1,16 +1,5 @@
-# React Starter Kit
+# React webpack
 
-React开发中最好用的脚手架。
-
-这个启动包的设计是为了让你使用一整套最新最酷的前端技术，所有都是可配置，富特性，基于webpack已经提供代码热加载，使用sass预处理css，单元测试，代码覆盖率报告，代码分割等等更多。
-
-这个项目最主要的目的是尽可能果断的保留。目的不是要你一定按照这个结构去完成你的项目，谐在使前端开发更健壮，更简单还有最重要的是更快乐。你可以获得以下的所有特性！
-
-最后，如果没有大家的贡献，这个项目是不可能如此健壮的。
-
-所有相关库已准备好，随时等待调用。
-
-## 特性
 * [react](https://github.com/facebook/react)
 * [redux](https://github.com/rackt/redux)
 * [react-router](https://github.com/rackt/react-router)
@@ -21,19 +10,18 @@ React开发中最好用的脚手架。
 * [eslint](http://eslint.org)
 
 ## 需求配置
-* node `^4.5.0`
-* npm `^3.0.0`
+* node
+* npm
 
 ## 开始
 
 确认好你的环境配置，然后就可以开始以下步骤。
 
 ```bash
-$ git clone https://github.com/bodyno/react-starter-kit.git
-$ cd react-starter-kit
-$ npm install                   # Install project dependencies
-$ npm start                     # Compile and launch
-```
+$ git clone https://github.com/MomentLA/react-webpack.git
+$ cd react-webpack
+$ npm install
+$ npm start
 
 如果一切顺利，你会看到如下:
 
@@ -41,9 +29,6 @@ $ npm start                     # Compile and launch
 
 开发过程中，你用得最多的会是`npm start`，但是这里还有很多其它的处理：
 
-
-|`npm run <script>`|解释|
-|------------------|-----------|
 |`start`|服务启动在3000端口，代码热替换开启。|
 |`compile`|编译程序到dist目录下（默认目录~/dist）。|
 |`dev`|与`npm start`相同, 但是启动nodemon守护进程。|
@@ -54,7 +39,6 @@ $ npm start                     # Compile and launch
 |`deploy:dev`|与`deploy`相同，但是`NODE_ENV`值为"development"。|
 |`deploy:prod`|与`deploy`相同，但是`NODE_ENV`值为"production"。|
 |`lint`|检查所有.js文件是否规范。|
-|`lint:fix`|检查所有.js文件是否规范并修复它们。 [更多](http://eslint.org/docs/user-guide/command-line-interface.html#fix)|
 
 ## 程序目录
 
